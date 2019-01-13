@@ -47,7 +47,7 @@ The adding store process is quite similar to the adding depot process. But creat
 
 ## Algorithm
 
-In order to find the shortest path to deliver the products, we need to calculate all the possible routes from the depot to store and store to the customer. In the program we have 2 depots and 5 stores, so for each customer, we need to calculate $2*5=10$ times, and then find the shortest path. All the paths are stored in an ArrayList and can be sorted.
+In order to find the shortest path to deliver the products, we need to calculate all the possible routes from the depot to store and store to the customer. In the program we have 2 depots and 5 stores, so for each customer, we need to calculate 2*5=10 times, and then find the shortest path. All the paths are stored in an ArrayList and can be sorted.
 
 ![](https://github.com/sukaidie/PathCalculator/blob/master/imgs/img_1.png)
 
