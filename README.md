@@ -7,7 +7,7 @@ A program that helps the shipper choose the shortest shipping path by using dron
 
 - The program was created with Maven, so please choose Maven Project when you import.
 - Run the **MainServer** class at first. Once the Server started successfully, run **ClientServer** class.
-- In order to reduce the calculation time, the coordinate data of depots and stores (warehouses) will be parsed in the initial Server setup process.
+- In order to reduce the calculation time, the coordinates data of depots and stores (warehouses) will be parsed only once in the initial Server setup process.
 - The parsing process is using Google Geocoding API, so please make sure your network is working properly.
 
 ### Adding customer
