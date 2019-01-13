@@ -42,7 +42,6 @@ public class ClientOutputThread extends Thread{
 				request.add(c4);
 //				request.add(c5);
 				
-				//Entry to change the customer
 				oos.writeObject(request);
 				oos.flush();
 				
