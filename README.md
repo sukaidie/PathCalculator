@@ -1,10 +1,11 @@
 # PathCalculator
 
-A program that helps the shipper choose the shortest shipping path by using drones. The path is depending on the total distance from the drone depot to the warehouse and from the warehouse to the customer.
+A program that helps the shipper choose the shortest shipping path by using drones. The path is depending on the whole distance from the drone depot to the warehouse and from the warehouse to the customer.
 
 
 ## Running the program
 
+- The program was created with Maven, so please choose Maven Project when you import.
 - Run the **MainServer** class at first. Once the Server started successfully, run **ClientServer** class.
 - In order to reduce the calculation time, the coordinate data of depots and stores (warehouses) will be parsed in the initial Server setup process.
 - The parsing process is using Google Geocoding API, so please make sure your network is working properly.
