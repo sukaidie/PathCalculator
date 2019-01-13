@@ -38,8 +38,6 @@ public class ServerInputThread extends Thread{
 					System.out.println("Shortest Path: "+Algorithm.findShortestPath(request.get(i)));
 					System.out.println("---------------------------------------");
 		        }		        
-//		        ois.close();		
-//		        is.close();
 	
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
